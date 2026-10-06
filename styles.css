@@ -258,6 +258,8 @@ img { max-width: 100%; display: block; }
 
 /* FORM */
 .form-section { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+.form-section > *, .hero__inner > *, .offer > *, .fr-wrap > *, .founder > * { min-width: 0; }
+.form input, .form select, .form textarea { width: 100%; }
 .form-section__text p { color: var(--text-dim); margin-bottom: 22px; }
 .form-section__list { display: flex; flex-direction: column; gap: 10px; }
 .form-section__list li { padding-left: 26px; position: relative; font-size: 14.5px; color: var(--text); }
@@ -355,7 +357,7 @@ img { max-width: 100%; display: block; }
   .founder { padding: 26px; }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
   .logo__suffix { display: none; }
 }
 
