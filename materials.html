@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Материалы под ваш оффер — Plan Uragan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="doc-header">
+  <div class="container doc-bar">
+    <a href="index.html" class="logo">
+      <svg class="logo__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 4A12 12 0 0 1 28 16" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M16 28A12 12 0 0 1 4 16" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M16 9.5A6.5 6.5 0 0 1 22.5 16" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M16 22.5A6.5 6.5 0 0 1 9.5 16" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="16" cy="16" r="1.8" fill="currentColor"/></svg>
+      <span>Plan Uragan</span>
+    </a>
+    <div class="doc-bar__actions">
+      <a href="index.html" class="btn btn--ghost btn--sm">На сайт</a>
+    </div>
+  </div>
+</header>
+
+<main class="container doc-hero">
+  <span class="tag">Материалы под ваш оффер</span>
+  <h1>Всё, что помогает довести заявку до оплаты</h1>
+  <p>Форма на сайте приводит заявку на бесплатный разбор. Дальше деньги зарабатываются или теряются в разговоре, в презентации и в первом сообщении. Ниже три материала, собранные под услуги и цены Plan Uragan.</p>
+</main>
+
+<section class="container doc-section">
+  <div class="material-grid">
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 4H20V16H8L4 20V4Z" stroke="#dc5a08" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Скрипты продаж</h3>
+      <p>Как вести разговор с заявкой на разбор: квалификация, 20 минут диагностики, переход к стратегии, ответы на «дорого», «мы подумаем», «у нас уже есть подрядчик».</p>
+      <a href="scripts.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="2" stroke="#dc5a08" stroke-width="1.8"/><path d="M8 20H16" stroke="#dc5a08" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+      <h3>Продающая презентация</h3>
+      <p>Оформленная страница агентства с услугами, ценами, кейсами и процессом работы — можно отправить собственнику в переписке вместо PDF.</p>
+      <a href="presentation.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M21 4L2.5 11.5L9 13.5M21 4L17.5 20L9 13.5M21 4L9 13.5" stroke="#dc5a08" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Скрипт холодных сообщений</h3>
+      <p>Кому писать первыми, первое сообщение, ответ на «а вы кто», прогрев до разбора — если хотите усилить входящий поток своими касаниями.</p>
+      <a href="outreach.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Plan Uragan. Материалы подготовлены под ваш оффер.</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
