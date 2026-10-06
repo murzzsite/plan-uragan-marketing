@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /plan-uragan-marketing/blog/preview/
+
+Sitemap: https://murzzsite.github.io/plan-uragan-marketing/sitemap.xml

@@ -1,0 +1,39 @@
+{
+  "siteName": "Plan Uragan",
+  "siteUrl": "https://murzzsite.github.io/plan-uragan-marketing",
+  "lang": "ru",
+  "repo": "murzzsite/plan-uragan-marketing",
+  "ref": "XYL36NUALU",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Полезные статьи о маркетинге, стратегии и масштабировании бизнеса от Plan Uragan",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Plan Uragan",
+    "jobTitle": "Маркетинговое агентство",
+    "type": "Organization"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Оставьте заявку — разберём вашу ситуацию и подскажем следующий шаг.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#contact",
+  "disclaimer": "",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/",
+    "/privacy.html"
+  ],
+  "indexNowKey": "3c2a5df9e00f89d194745b0be26064f5",
+  "previewSecret": "0372a282336cf24a",
+  "theme": {
+    "accent": "var(--brand)",
+    "accent-soft": "var(--accent-soft)",
+    "bg": "var(--bg)",
+    "surface": "var(--card)",
+    "text": "var(--text)",
+    "soft": "var(--brand-soft)",
+    "line": "var(--border)"
+  }
+}
