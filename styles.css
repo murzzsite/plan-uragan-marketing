@@ -203,7 +203,7 @@ img { max-width: 100%; display: block; }
 .offer__box { background: #fff; color: var(--text); border-radius: var(--radius); padding: 30px; text-align: center; }
 .offer__from { font-size: 13px; color: var(--text-dim); text-transform: uppercase; font-weight: 700; letter-spacing: .5px; }
 .offer__price { font-family: 'Manrope', sans-serif; font-size: 46px; font-weight: 800; color: var(--accent); margin: 6px 0 4px; letter-spacing: -1px; }
-.offer__note { font-size: 13px; color: var(--text-dim); margin-bottom: 20px; }
+.offer .offer__note { font-size: 13px; color: var(--text-dim); margin-bottom: 20px; }
 
 /* PRICE TABLE */
 .price-table { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
@@ -346,6 +346,9 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 560px) {
   .header__tg { display: none; }
+  .hide-sm { display: none; }
+  .header__actions { gap: 10px; }
+  .header__inner { gap: 12px; }
   .header__actions .btn { padding: 10px 14px; font-size: 13px; }
   .grid--4, .grid--3, .steps, .contacts, .fr-steps, .founder__facts { grid-template-columns: 1fr; }
   .hero__stats { gap: 24px; }
