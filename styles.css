@@ -439,3 +439,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 900px) {
   .offers { grid-template-columns: 1fr; }
 }
+
+@media (max-width: 1320px) {
+  .header__tg { display: none; }
+}
