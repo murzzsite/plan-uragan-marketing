@@ -408,3 +408,34 @@ img { max-width: 100%; display: block; }
   .doc-price-row span:last-child { text-align: left; }
   .doc-hero h1 { font-size: 28px; }
 }
+
+/* SPECIAL OFFERS */
+.service--wide { grid-column: 1 / -1; }
+.offers-note { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 32px; }
+.offers-note span { background: var(--brand-soft); color: var(--brand); font-weight: 700; font-size: 14px; padding: 8px 16px; border-radius: 999px; }
+.offers-note span:first-child { background: var(--accent-soft); color: var(--accent-dim); }
+.offers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: start; }
+.offer-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; gap: 12px; box-shadow: var(--shadow); }
+.offer-card h3 { font-size: 21px; }
+.offer-card__price { font-family: 'Manrope', sans-serif; font-size: 30px; font-weight: 800; color: var(--accent); letter-spacing: -0.5px; }
+.offer-card__sub { font-size: 13px; color: var(--text-dim); margin-top: -8px; }
+.offer-card p { font-size: 14px; color: var(--text-dim); }
+.offer-card p b { color: var(--text); }
+.offer-card--main { border-color: var(--brand); border-width: 2px; }
+.offer-card__more { border-top: 1px solid var(--border); padding-top: 12px; }
+.offer-card__more summary { cursor: pointer; font-weight: 700; font-size: 14px; color: var(--brand); list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.offer-card__more summary::-webkit-details-marker { display: none; }
+.offer-card__more summary::after { content: '+'; font-size: 20px; color: var(--accent); }
+.offer-card__more[open] summary::after { content: '−'; }
+.offer-card__more ol { list-style: decimal; padding-left: 20px; margin-top: 14px; display: flex; flex-direction: column; gap: 12px; }
+.offer-card__more li { font-size: 13.5px; color: var(--text-dim); padding-left: 4px; }
+.offer-card__more li b { color: var(--text); }
+.offer-card .btn { margin-top: auto; }
+
+/* CLIENTS */
+.clients { display: flex; flex-direction: column; gap: 16px; }
+.clients img { width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow); }
+
+@media (max-width: 900px) {
+  .offers { grid-template-columns: 1fr; }
+}
